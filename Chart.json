@@ -1,33 +1,23 @@
 {
-  "patients": [
+  "Traker": [
     {
       "id": "1",
-      "name": "Chul Soo Lee",
-      "age": 45,
-      "gender": "Male",
-      "vitalSigns": {
-        "heartRate": [72, 75, 78, 80],
-        "bloodPressure": [
-          {"systolic": 120, "diastolic": 80},
-          {"systolic": 118, "diastolic": 79},
-          {"systolic": 122, "diastolic": 82}
-        ],
-        "temperature": [36.6, 35.8, 37.0]
+      "name": "체중 (kg)",
+      "Start": "60",
+      "Target": "50",
+      "Week": {
+        "week1": [60, 59, 59, 58, 57, 58, 57],
+        "week2": [57, 58, 56, 56, 53, 52, 53]
       }
     },
     {
       "id": "2",
-      "name": "Hana Kim",
-      "age": 36,
-      "gender": "Female",
-      "vitalSigns": {
-        "heartRate": [80, 90, 120, 110],
-        "bloodPressure": [
-          {"systolic": 115, "diastolic": 75},
-          {"systolic": 117, "diastolic": 78},
-          {"systolic": 116, "diastolic": 76}
-        ],
-        "temperature": [36.5, 37.7, 36.9]
+      "name": "만보기 (걸음)",
+      "Average": "7000",
+      "Target": "10000",
+      "Week": {
+        "week1": [8000, 7000, 10000, 7000, 2000, 5000, 6000],
+        "week2": [12000, 5000, 8000, 7000, 9000, 6000, 9000]
       }
     }
   ]
