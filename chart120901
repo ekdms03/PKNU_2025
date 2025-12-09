@@ -1,0 +1,5 @@
+  { date: '12/01', weight: 75.2, steps: 5500 },
+  { date: '12/02', weight: 74.9, steps: 8200 },
+  { date: '12/03', weight: 74.5, steps: 10100 },
+  { date: '12/04', weight: 74.3, steps: 7800 },
+  { date: '12/05', weight: 74.0, steps: 9500 }
